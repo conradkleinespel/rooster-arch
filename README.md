@@ -20,3 +20,7 @@ Here's a list of existing Rooster for Arch Linux contributors:
 - [ReStrictOr on AUR](https://aur.archlinux.org/account/ReStrictOr)
 
 Thank you very much for your help!  :smiley:  :heart:
+
+## License
+
+The source code is released under the Apache 2.0 license.
