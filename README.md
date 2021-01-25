@@ -6,10 +6,17 @@ Rooster's Arch Linux package is made available free of charge. You can support i
 
 ## Instructions
 
+First, update the information in `PKGBUILD`.
+
+Then, run the following commands:
+
 ```sh
+# Update the build information and install the package
 makepkg --printsrcinfo > .SRCINFO
 makepkg -i
 ```
+
+Then, remove the `.github` directory (AUR does not accept subdirectories) and publish to the AUR (ssh://aur@aur.archlinux.org/rooster.git).
 
 ## Contributors
 
