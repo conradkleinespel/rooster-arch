@@ -16,7 +16,7 @@ makepkg --printsrcinfo > .SRCINFO
 makepkg -i
 ```
 
-Then, remove the `.github` directory (AUR does not accept subdirectories) and publish to the AUR (ssh://aur@aur.archlinux.org/rooster.git).
+Then, remove the `.github` directory and publish to the AUR (`ssh://aur@aur.archlinux.org/rooster.git`).
 
 ## Contributors
 
